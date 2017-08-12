@@ -1,0 +1,192 @@
+body {
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(10, 10, 10);
+}
+
+.listings{
+    padding: 5px;
+    height: calc(100vh - 50px);
+    width: 400px;
+    float: left;
+    background: rgb(30, 30, 30);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:0px;
+    text-align: center;
+}
+
+.listing{
+    padding: 10px;
+    margin: 5px;
+    height: 25px;
+    width: calc(100% - 30px);
+    float: left;
+    background: rgb(10, 10, 10);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:15px;
+    text-align: left;
+}
+
+.title{
+    padding: 2px;
+    height: 40px;
+    width: calc(100% - 30px);
+    float: left;
+    background: rgb(30, 30, 30);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:25px;
+    text-align: center;
+}
+
+.updated{
+    padding: 2px;
+    height: 15px;
+    width: calc(100% - 30px);
+    float: left;
+    background: rgb(30, 30, 30);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:10px;
+    text-align: center;
+}
+
+.credit{
+    height: 15px;
+    width: 200px;
+    float: right;
+    background: rgb(10, 10, 10);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:10px;
+    text-align: center;
+}
+
+.icon{
+    vertical-align: middle;
+}
+
+.ragial{
+    height: 100%;
+    min-height: 800px;
+    width: 100%;
+    min-width: 650px;
+    float: center;
+    background: rgb(30, 30, 30);
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: hidden;
+    font-size:0px;
+    text-align: center;
+}
+
+.ragialcontainer{
+    height: calc(100vh - 90px);
+    width: calc(100vw - 460px);
+    float: left;
+    background: white;
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: auto;
+    font-size:0px;
+    text-align: center;
+}
+
+.addItemArea{
+    margin-left: 15px;
+    height: calc(100vh - 50px);
+    width: calc(100vw - 450px);
+    float: left;
+    white-space: pre-wrap;
+    color: rgb(200, 200, 200);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    overflow: hidden;
+    font-size:0px;
+    text-align: center;
+}
+
+.buttons{
+    background-color: #4CAF50;
+    background-size: 1800% 1800%;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.inputs{
+    margin-left: 5px; 
+    background-color: rgb(30, 30, 30);;
+    background-size: 1800% 1800%;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 5px;
+    float: left;
+    overflow:hidden;
+}
+
+.remove{
+    margin-right: 5px; 
+    background-color: darkred;
+    background-size: 1800% 1800%;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    overflow:hidden; 
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0 0 2px rgba(125,125,125,0.6); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(125, 125, 125, 0.2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@-webkit-keyframes flash-red {
+    0% { background: red; }
+    100%   { background: default; }
+}

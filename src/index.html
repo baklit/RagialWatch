@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body id="body">
+        <div class="listings" id="Listings" text=>
+          <span class="title">Your watch list</span>
+          <span class="updated" id="updatetime">Latest price update N/A</span>
+        </div>
+
+        <div class="addItemArea">
+          <div class="ragialcontainer">
+          <iframe class="ragial" id="ragial" scrolling="no" src="http://ragi.al/popular/iRO-Odin"> </iframe>
+          </div>
+          <button type="button" id="add" class="buttons"> Add item</button>
+          <input placeholder="Alert below" type="number" id="alertvalue" class="inputs" min="1" max="999999999"></input>
+          <div class="credit">Ragial Watch made by Wren <3</div>
+        </div>
+
+        <script>
+          require("./itemhandle")
+        </script>
+    </body>
+</html>
